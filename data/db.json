@@ -1,0 +1,195 @@
+{
+  "products": [
+    {
+      "id": "fish-neon-tetra-6",
+      "name": "Neon Tetra (Group of 6)",
+      "description": "Peaceful schooling fish with bright blue-red stripes for planted community tanks.",
+      "price": 18.99,
+      "category": "fish",
+      "image": "../public/Common-Submerged-Aquatic-Plants.jpg",
+      "alt": "School of neon tetra fish"
+    },
+    {
+      "id": "fish-corydoras-panda",
+      "name": "Corydoras Panda",
+      "description": "Bottom-dwelling cleanup fish that thrives in soft substrate and groups.",
+      "price": 6.49,
+      "category": "fish",
+      "image": "../public/Common-Submerged-Aquatic-Plants.jpg",
+      "alt": "Panda corydoras fish"
+    },
+    {
+      "id": "fish-blue-betta",
+      "name": "Blue Betta Fish",
+      "description": "Colorful centerpiece fish that prefers calm waters and warm planted tanks.",
+      "price": 15.99,
+      "category": "fish",
+      "image": "../public/Common-Submerged-Aquatic-Plants.jpg",
+      "alt": "Blue betta fish"
+    },
+    {
+      "id": "fish-phantom-tetra",
+      "name": "Phantom Tetra",
+      "description": "Active schooling fish with dramatic contrast and peaceful behavior.",
+      "price": 6.99,
+      "category": "fish",
+      "image": "../public/Common-Submerged-Aquatic-Plants.jpg",
+      "alt": "Phantom tetra fish"
+    },
+    {
+      "id": "fish-molly",
+      "name": "Molly Fish",
+      "description": "Hardy livebearer suitable for beginners and mixed community tanks.",
+      "price": 5.99,
+      "category": "fish",
+      "image": "../public/Common-Submerged-Aquatic-Plants.jpg",
+      "alt": "Molly fish"
+    },
+    {
+      "id": "invert-red-cherry-shrimp",
+      "name": "Red Cherry Shrimp",
+      "description": "Colorful cleaner shrimp for planted nano tanks.",
+      "price": 3.99,
+      "category": "fish",
+      "image": "../public/guppy_grass.png",
+      "alt": "Red cherry shrimp"
+    },
+    {
+      "id": "invert-amano-shrimp",
+      "name": "Amano Shrimp",
+      "description": "Excellent algae-eating shrimp for aquascapes.",
+      "price": 4.99,
+      "category": "fish",
+      "image": "../public/guppy_grass.png",
+      "alt": "Amano shrimp"
+    },
+    {
+      "id": "invert-mystery-snail",
+      "name": "Mystery Snail",
+      "description": "Peaceful snail that helps keep surfaces clean.",
+      "price": 2.99,
+      "category": "fish",
+      "image": "../public/guppy_grass.png",
+      "alt": "Mystery snail"
+    },
+    {
+      "id": "invert-nerite-snail",
+      "name": "Nerite Snail",
+      "description": "Reliable algae grazer that does not reproduce in freshwater.",
+      "price": 3.49,
+      "category": "fish",
+      "image": "../public/guppy_grass.png",
+      "alt": "Nerite snail"
+    },
+    {
+      "id": "plant-guppy-grass",
+      "name": "Guppy Grass",
+      "description": "Fast-growing oxygenating plant ideal for shrimp and fry in low-light setups.",
+      "price": 4.99,
+      "category": "plants",
+      "image": "../public/guppy_grass.png",
+      "alt": "Guppy Grass"
+    },
+    {
+      "id": "plant-water-wisteria",
+      "name": "Water Wisteria",
+      "description": "Beginner-friendly stem plant with broad leaves and quick growth.",
+      "price": 5.49,
+      "category": "plants",
+      "image": "../public/Common-Submerged-Aquatic-Plants.jpg",
+      "alt": "Water wisteria plant"
+    },
+    {
+      "id": "plant-anubias-nana",
+      "name": "Anubias Nana",
+      "description": "Slow-growing low-light plant that thrives on hardscape.",
+      "price": 5.99,
+      "category": "plants",
+      "image": "../public/guppy_grass.png",
+      "alt": "Anubias nana plant"
+    },
+    {
+      "id": "plant-java-fern",
+      "name": "Java Fern",
+      "description": "Classic easy-care plant for beginners and low-tech setups.",
+      "price": 4.99,
+      "category": "plants",
+      "image": "../public/Common-Submerged-Aquatic-Plants.jpg",
+      "alt": "Java fern plant"
+    },
+    {
+      "id": "plant-moss-ball",
+      "name": "Moss Ball",
+      "description": "Compact rolling algae sphere that adds texture.",
+      "price": 3.99,
+      "category": "plants",
+      "image": "../public/guppy_grass.png",
+      "alt": "Moss ball plant"
+    },
+    {
+      "id": "plant-rotala-stem",
+      "name": "Rotala Stem Plant",
+      "description": "Colorful stem plant for medium to high light aquariums.",
+      "price": 6.99,
+      "category": "plants",
+      "image": "../public/Common-Submerged-Aquatic-Plants.jpg",
+      "alt": "Rotala stem plant"
+    },
+    {
+      "id": "supply-bio-sponge-filter",
+      "name": "Bio Sponge Filter",
+      "description": "Quiet, shrimp-safe filtration option for nano tanks and fry grow-outs.",
+      "price": 9.99,
+      "category": "supplies",
+      "image": "../public/Common-Submerged-Aquatic-Plants.jpg",
+      "alt": "Sponge filter"
+    },
+    {
+      "id": "supply-water-test-strips",
+      "name": "Water Test Strips (50)",
+      "description": "Quick checks for pH, nitrite, nitrate, and hardness during cycling.",
+      "price": 12.99,
+      "category": "supplies",
+      "image": "../public/Common-Submerged-Aquatic-Plants.jpg",
+      "alt": "Water test strips"
+    },
+    {
+      "id": "supply-aquarium-substrate",
+      "name": "Fine Aquarium Substrate (5kg)",
+      "description": "Natural dark sand substrate ideal for planted tanks and bottom dwellers.",
+      "price": 18.99,
+      "category": "supplies",
+      "image": "../public/Common-Submerged-Aquatic-Plants.jpg",
+      "alt": "Aquarium substrate bag"
+    },
+    {
+      "id": "supply-liquid-fertiliser",
+      "name": "Liquid Plant Fertiliser (250ml)",
+      "description": "All-in-one micro and macro nutrient formula for healthy plant growth.",
+      "price": 14.99,
+      "category": "supplies",
+      "image": "../public/Common-Submerged-Aquatic-Plants.jpg",
+      "alt": "Liquid plant fertiliser bottle"
+    },
+    {
+      "id": "supply-water-conditioner",
+      "name": "Tap Water Conditioner (500ml)",
+      "description": "Neutralises chlorine and chloramine instantly. Safe for fish and shrimp.",
+      "price": 11.49,
+      "category": "supplies",
+      "image": "../public/Common-Submerged-Aquatic-Plants.jpg",
+      "alt": "Water conditioner bottle"
+    },
+    {
+      "id": "supply-aquarium-thermometer",
+      "name": "Digital Aquarium Thermometer",
+      "description": "Accurate LCD thermometer with suction cup mount. Reads in °C and °F.",
+      "price": 7.99,
+      "category": "supplies",
+      "image": "../public/Common-Submerged-Aquatic-Plants.jpg",
+      "alt": "Digital aquarium thermometer"
+    }
+  ],
+  "messages": [],
+  "orders": []
+}

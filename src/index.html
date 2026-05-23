@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaBloom – Freshwater Fish, Plants & Supplies</title>
+    <meta name="description" content="AquaBloom is a Sydney family-owned aquarium store offering hand-selected freshwater fish, aquatic plants, invertebrates, and tank supplies.">
+    <meta property="og:title" content="AquaBloom – Freshwater Fish, Plants & Supplies">
+    <meta property="og:description" content="Shop healthy livestock and quality gear for your freshwater planted tank.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <a class="site-brand" href="index.html">AquaBloom</a>
+        <nav class="main-nav" aria-label="Primary">
+            <ul class="nav-list">
+                <li><a href="fish.html">Fish</a></li>
+                <li><a href="plants.html">Plants</a></li>
+                <li><a href="supplies.html">Supplies</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart (<span id="navCartCount">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="landing-main">
+        <section class="hero-section" aria-labelledby="homeHeader">
+            <div class="hero-content">
+                <h1 id="homeHeader">Aquarium fish, invertebrates, plants, and supplies – all in one place.</h1>
+                <p>Shop healthy livestock and quality gear for your freshwater planted tank.</p>
+                <div class="hero-actions">
+                    <a class="hero-primary" href="fish.html">Shop All Fish</a>
+                    <a class="hero-link" href="#categories">Browse plants and supplies</a>
+                </div>
+            </div>
+            <div class="hero-media">
+                <img src="../public/Common-Submerged-Aquatic-Plants.jpg" alt="Colorful aquarium fish in a planted tank">
+            </div>
+        </section>
+
+        <section id="categories" class="categories-section" aria-labelledby="categoriesHeader">
+            <h2 id="categoriesHeader">Shop by Category</h2>
+            <div class="categories-grid">
+                <article class="category-card">
+                    <img src="../public/Common-Submerged-Aquatic-Plants.jpg" alt="Fish category">
+                    <div class="category-body">
+                        <h3>Fish</h3>
+                        <p>Vibrant tropical and freshwater fish for your aquarium.</p>
+                        <a href="fish.html">Shop now</a>
+                    </div>
+                </article>
+
+                <article class="category-card">
+                    <img src="../public/guppy_grass.png" alt="Invertebrates category">
+                    <div class="category-body">
+                        <h3>Invertebrates</h3>
+                        <p>Shrimp, snails, and other aquatic invertebrates.</p>
+                        <a href="fish.html">Shop now</a>
+                    </div>
+                </article>
+
+                <article class="category-card">
+                    <img src="../public/guppy_grass.png" alt="Plants category">
+                    <div class="category-body">
+                        <h3>Plants</h3>
+                        <p>Lush aquatic plants for low-tech and high-tech tanks.</p>
+                        <a href="plants.html">Shop now</a>
+                    </div>
+                </article>
+
+                <article class="category-card">
+                    <img src="../public/Common-Submerged-Aquatic-Plants.jpg" alt="Supplies category">
+                    <div class="category-body">
+                        <h3>Supplies</h3>
+                        <p>Filters, substrate, equipment, and daily care accessories.</p>
+                        <a href="supplies.html">Shop now</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="featured-section" aria-labelledby="featuredFishHeader">
+            <div class="featured-wrap">
+                <h2 id="featuredFishHeader">Featured Fish</h2>
+                <p class="featured-subtitle">Popular species perfect for beginners and experienced aquarists</p>
+                <div class="featured-grid">
+                    <article class="featured-card">
+                        <img src="../public/Common-Submerged-Aquatic-Plants.jpg" alt="Neon tetra fish">
+                        <div class="featured-card-body">
+                            <span class="feature-tag">Beginner Friendly</span>
+                            <h3>Neon Tetra</h3>
+                            <div class="featured-card-footer">
+                                <p class="featured-price">$18.99</p>
+                                <button class="add-btn" type="button" data-id="fish-neon-tetra-6" data-name="Neon Tetra (Group of 6)" data-price="18.99">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="featured-card">
+                        <img src="../public/Common-Submerged-Aquatic-Plants.jpg" alt="Blue betta fish">
+                        <div class="featured-card-body">
+                            <span class="feature-tag">Solitary</span>
+                            <h3>Blue Betta Fish</h3>
+                            <div class="featured-card-footer">
+                                <p class="featured-price">$15.99</p>
+                                <button class="add-btn" type="button" data-id="fish-blue-betta" data-name="Blue Betta Fish" data-price="15.99">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="featured-card">
+                        <img src="../public/Common-Submerged-Aquatic-Plants.jpg" alt="Phantom tetra fish">
+                        <div class="featured-card-body">
+                            <span class="feature-tag">School Fish</span>
+                            <h3>Phantom Tetra</h3>
+                            <div class="featured-card-footer">
+                                <p class="featured-price">$6.99</p>
+                                <button class="add-btn" type="button" data-id="fish-phantom-tetra" data-name="Phantom Tetra" data-price="6.99">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="featured-card">
+                        <img src="../public/Common-Submerged-Aquatic-Plants.jpg" alt="Molly fish">
+                        <div class="featured-card-body">
+                            <span class="feature-tag">Easy Care</span>
+                            <h3>Molly Fish</h3>
+                            <div class="featured-card-footer">
+                                <p class="featured-price">$5.99</p>
+                                <button class="add-btn" type="button" data-id="fish-molly" data-name="Molly Fish" data-price="5.99">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-section featured-section-alt" aria-labelledby="featuredInvertsHeader">
+            <div class="featured-wrap">
+                <h2 id="featuredInvertsHeader">Featured Invertebrates</h2>
+                <p class="featured-subtitle">Shrimp, snails, and other fascinating aquatic creatures</p>
+                <div class="featured-grid">
+                    <article class="featured-card">
+                        <img src="../public/guppy_grass.png" alt="Red cherry shrimp">
+                        <div class="featured-card-body">
+                            <span class="feature-tag">Low Light Plant</span>
+                            <h3>Red Cherry Shrimp</h3>
+                            <div class="featured-card-footer">
+                                <p class="featured-price">$3.99</p>
+                                <button class="add-btn" type="button" data-id="invert-red-cherry-shrimp" data-name="Red Cherry Shrimp" data-price="3.99">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="featured-card">
+                        <img src="../public/guppy_grass.png" alt="Amano shrimp">
+                        <div class="featured-card-body">
+                            <span class="feature-tag">Algae Eater</span>
+                            <h3>Amano Shrimp</h3>
+                            <div class="featured-card-footer">
+                                <p class="featured-price">$4.99</p>
+                                <button class="add-btn" type="button" data-id="invert-amano-shrimp" data-name="Amano Shrimp" data-price="4.99">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="featured-card">
+                        <img src="../public/guppy_grass.png" alt="Mystery snail">
+                        <div class="featured-card-body">
+                            <span class="feature-tag">Beginner Friendly</span>
+                            <h3>Mystery Snail</h3>
+                            <div class="featured-card-footer">
+                                <p class="featured-price">$2.99</p>
+                                <button class="add-btn" type="button" data-id="invert-mystery-snail" data-name="Mystery Snail" data-price="2.99">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="featured-card">
+                        <img src="../public/guppy_grass.png" alt="Nerite snail">
+                        <div class="featured-card-body">
+                            <span class="feature-tag">Low Maintenance</span>
+                            <h3>Nerite Snail</h3>
+                            <div class="featured-card-footer">
+                                <p class="featured-price">$3.49</p>
+                                <button class="add-btn" type="button" data-id="invert-nerite-snail" data-name="Nerite Snail" data-price="3.49">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-section" aria-labelledby="featuredPlantsHeader">
+            <div class="featured-wrap">
+                <h2 id="featuredPlantsHeader">Featured Plants</h2>
+                <p class="featured-subtitle">Beautiful and hardy aquatic plants for any tank setup</p>
+                <div class="featured-grid">
+                    <article class="featured-card">
+                        <img src="../public/guppy_grass.png" alt="Anubias nana plant">
+                        <div class="featured-card-body">
+                            <span class="feature-tag">Low Light</span>
+                            <h3>Anubias Nana</h3>
+                            <div class="featured-card-footer">
+                                <p class="featured-price">$5.99</p>
+                                <button class="add-btn" type="button" data-id="plant-anubias-nana" data-name="Anubias Nana" data-price="5.99">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="featured-card">
+                        <img src="../public/Common-Submerged-Aquatic-Plants.jpg" alt="Java fern plant">
+                        <div class="featured-card-body">
+                            <span class="feature-tag">Easy Care</span>
+                            <h3>Java Fern</h3>
+                            <div class="featured-card-footer">
+                                <p class="featured-price">$4.99</p>
+                                <button class="add-btn" type="button" data-id="plant-java-fern" data-name="Java Fern" data-price="4.99">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="featured-card">
+                        <img src="../public/guppy_grass.png" alt="Moss ball plant">
+                        <div class="featured-card-body">
+                            <span class="feature-tag">Low Maintenance</span>
+                            <h3>Moss Ball</h3>
+                            <div class="featured-card-footer">
+                                <p class="featured-price">$3.99</p>
+                                <button class="add-btn" type="button" data-id="plant-moss-ball" data-name="Moss Ball" data-price="3.99">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="featured-card">
+                        <img src="../public/Common-Submerged-Aquatic-Plants.jpg" alt="Rotala stem plant">
+                        <div class="featured-card-body">
+                            <span class="feature-tag">Medium Light</span>
+                            <h3>Rotala Stem Plant</h3>
+                            <div class="featured-card-footer">
+                                <p class="featured-price">$6.99</p>
+                                <button class="add-btn" type="button" data-id="plant-rotala-stem" data-name="Rotala Stem Plant" data-price="6.99">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p class="footer-brand">AquaBloom</p>
+            <nav aria-label="Footer">
+                <ul class="footer-links">
+                    <li><a href="fish.html">Fish</a></li>
+                    <li><a href="plants.html">Plants</a></li>
+                    <li><a href="supplies.html">Supplies</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <p class="footer-copy">&copy; 2025 AquaBloom. Portfolio project.</p>
+        </div>
+    </footer>
+</body>
+</html>

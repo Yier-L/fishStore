@@ -1,0 +1,25 @@
+{
+  "name": "aquabloom",
+  "version": "1.0.0",
+  "description": "AquaBloom full-stack storefront prototype",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "portfolio",
+    "express",
+    "storefront"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.1",
+    "vitest": "^3.1.1"
+  }
+}
